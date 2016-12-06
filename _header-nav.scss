@@ -1,5 +1,6 @@
 $font-family: 'Yanone Kaffeesatz', sans-serif;
 $input-button-border-radius: 3px;
+$header-font-color: #303030;
 
 header {
     img {
@@ -10,54 +11,59 @@ header {
         border: none;
     }
 
-}
+    a {
+        text-decoration: none;
+        color: $header-font-color;
+    }
 
-.class {
-    display: block;
-    position: relative;
-}
+    .container {
+        display: block;
+        position: relative;
+        margin: 0 50px;
+    
+        .spread {
+            display: inline-block;
+            vertical-align: middle;
+        }
+    
+        nav {
+            display: flex;
+            justify-content: space-around;
+            text-decoration: none;
+            font-size: 2.5em;
+            font-family: $font-family;
+            color: $header-font-color;
+            margin: 10px;
+        }
 
-h1 #logo {
-    border-width: 50px;
-}
+        .spread-end-blocks {
+            display: block;
 
-.spread {
-    display: inline-block;
-    vertical-align: middle;
-}
+                #cart-button {
+                    position: relative;
+                    display: inline-block;
+                    padding: 0 36px 0 32px;
+                    border: 1px solid #e0e0e0;
+                    color: #606060;
+                    line-height: 34px;
+                    border-radius: $input-button-border-radius;
+                }
+    
+                #search {
+                    position: relative;
+                    display: inline-block;
+                    height: 36px;
+                    padding: 0 6px;
+                    border: 1px solid #e0e0e0;
+                    color: lightgrey;
+                    border-radius: $input-button-border-radius; 
+                }
 
-nav {
-    display: flex;
-    justify-content: flex-start;
-    text-decoration: none;
-    font-size: 2.5em;
-    font-family: $font-family;
-    color: #303030;
-     margin: 10px;
-}
+                .end-links {
+                    text-align: right;
+                }
+        }
 
+    }
 
-#cart-button {
-    position: relative;
-    display: inline-block;
-    height: 36px;
-    padding: 0;
-    border: 1px solid #e0e0e0;
-    color: #606060;
-    line-height: 34px;
-    border-radius: $input-button-border-radius;
-}
-
-#search {
-    position: relative;
-    display: inline-block;
-    height: 36px;
-    padding: 0 6px;
-    border: 1px solid #e0e0e0;
-    color: lightgrey;
-    border-radius: $input-button-border-radius; 
-}
-
-.end-links {
-    text-align: right;
-}
+} 
