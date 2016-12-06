@@ -54,8 +54,7 @@ header .container {
     color: #303030;
     margin: 10px; }
   header .container .spread-end-blocks {
-    display: block;
-    text-align: right; }
+    display: block; }
     header .container .spread-end-blocks #cart-button {
       position: relative;
       display: inline-block;
@@ -75,37 +74,31 @@ header .container {
     header .container .spread-end-blocks .end-links {
       text-align: right; }
 
-.tie-block {
+#tie-block {
   margin: 0 auto;
   background: #f4f4f4;
   margin-bottom: 50px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.4); }
-
-.spread {
-  display: inline-block;
-  position: relative; }
-
-.ties {
-  display: flex;
-  justify-content: center;
-  padding-left: 50px;
-  padding-right: 50px;
-  list-style-type: none; }
-
-.tie .title1 {
-  margin: 5px -5px;
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 1.2;
-  text-align: center;
-  color: #303030; }
-
-h2 {
-  font-size: 4em;
-  font-family: "Yanone Kaffeesatz", sans-serif;
-  font-weight: normal;
-  text-align: center;
-  color: #303030;
-  padding: 20px; }
+  border-bottom: 1px solid lightgrey; }
+  #tie-block .ties {
+    display: flex;
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    list-style-type: none;
+    border: none; }
+  #tie-block .tie .title1 {
+    margin: 5px -5px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+    color: #303030; }
+  #tie-block h2 {
+    font-size: 4em;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-weight: normal;
+    text-align: center;
+    color: #303030;
+    padding: 20px; }
 
 /*# sourceMappingURL=output.css.map */
