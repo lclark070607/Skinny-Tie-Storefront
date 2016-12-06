@@ -103,17 +103,25 @@ header .container {
 
 #tie-quote-container {
   margin: 25px; }
+  #tie-quote-container p {
+    font: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 2em;
+    font-weight: 100;
+    text-align: center; }
+  #tie-quote-container a {
+    text-decoration: none;
+    color: #303030;
+    font-size: 1em;
+    font: 'Work Sans', sans-serif;
+    text-align: center; }
 
-ul {
-  text-decoration: none;
+.tie-products {
   display: flex;
   justify-content: space-around; }
-
-p {
-  font: 'Yanone Kaffeesatz', sans-serif;
-  font-size: 2em;
-  font-weight: 100;
-  text-align: center; }
+  .tie-products li {
+    list-style-type: none; }
+  .tie-products img {
+    width: 90%; }
 
 a {
   text-decoration: none;

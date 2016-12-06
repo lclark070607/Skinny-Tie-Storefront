@@ -1,21 +1,33 @@
 #tie-quote-container {
     margin: 25px;
-    text-decoration: none;
-}
 
-ul {
-    text-decoration: none;
-    display: flex;
-    justify-content: space-around;
-}
-  
-        
-        p {
+    p {
             font: 'Yanone Kaffeesatz', sans-serif;
             font-size: 2em;
             font-weight: 100;
             text-align: center
         }
+    
+    a {
+            text-decoration: none;
+            color: #303030;
+            font-size: 1em;
+            font: 'Work Sans', sans-serif;
+            text-align: center;
+        }
+}
+
+.tie-products {
+        display: flex;
+        justify-content: space-around;
+    
+    li {
+                list-style-type: none;
+            }
+            img {
+                width: 90%;
+            }
+}
 
         a {
             text-decoration: none;
